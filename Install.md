@@ -35,7 +35,7 @@
 ### Install
 
 
-Step 1. Installation of Raspi libraries
+**Step 1**. Installation of Raspi libraries
 ```
 $ sudo apt update
 $ sudo apt upgrade -y
@@ -44,7 +44,7 @@ $ sudo apt install python3-pip libjpeg-dev libopenblas-dev libopenmpi-dev libomp
 $ sudo apt install libatlas-base-dev libjasper-dev libavutil-dev libavcodec-dev libavformat-dev libswscale-dev -y
 ```
 
-Step 2. Installation for using Python 3.7
+**Step 2**. Installation for using Python 3.7
 ```
 $ wget https://www.python.org/ftp/python/3.7.3/Python-3.7.3.tgz
 $ tar zxvf Python-3.7.3.tgz
@@ -54,7 +54,7 @@ $ make
 $ sudo make install
 ```
 
-Step 3. Installation for using PyTorch
+**Step 3**. Installation for using PyTorch
 ```
 $ git clone https://github.com/sungjuGit/PyTorch-and-Vision-for-Raspberry-Pi-4B.git
 $ cd PyTorch-and-Vision-for-Raspberry-Pi-4B
@@ -62,16 +62,23 @@ $ sudo pip3 install torch-1.4.0a0+f43194e-cp37-cp37m-linux_armv7l.whl
 $ sudo pip3 install torchvision-0.5.0a0+9cdc814-cp37-cp37m-linux_armv7l.whl
 ```
 
-Step 4. Installation for ultrasonic sensors and cameras
+**Step 4**. Installation for ultrasonic sensors and cameras
 ```
 $ sudo pip3 install RPi.GPIO opencv-python picamera
 ```
 
-Step 5. Download Files
+**Step 5**.
+Enable Raspberry pi Camera 
+```
+$ sudo raspi-camera
+```
+Select "Interface Options" -> "I1 Legacy Camera Enable"
+
+**Step 6**. Download Files
 - inference0511.py
 - model_0511.pth
 
-Step 6. Execution check
+**Step 7**. Execution check
 ```
 $ python3 inference0511.py
 ```
@@ -111,20 +118,20 @@ garbage            :NG (plastic_bottles)
 ### Requirement
 - Same as Type1
 
-Step 1 〜 Step 4 : Same as Type1
+**Step 1 〜 Step 4** : Same as Type1
 
-Step 5. Download Files
+**Step 5**. Download Files
 - upto5DWM0511.py
 - client_secrets.json
 - credentials.json
 
-Step 6. 
+**Step 6**. 
 - PyDrive2 is a wrapper library of google-api-python-client that simplifies many common Google Drive API V2 tasks. 
 ```
 $ sudo pip3 install PyDrive2
 ```
 
-Step 7.
+**Step 7**.
 - make settings.yaml
 ```
 client_config_backend: settings
@@ -141,7 +148,7 @@ get_refresh_token: True
     - https://www.googleapis.com/auth/drive.install
 ```
 
-Step 8.
+**Step 8**.
 <span style="color: red; ">Not required if you download and try my client_secrets.json and credentials.json files</span>
 1. Access to cloud.google.com/developers
 2. Follow the web page at the URL below.
@@ -169,7 +176,7 @@ $ python3 auth.py
 ```
 A web browser will open and GoogleDrive settings screen appears and check the box.
 
-Step9. Execution check
+**Step9**. Execution check
 ```
 $ python3 upto5DWM0511.py
 ```
