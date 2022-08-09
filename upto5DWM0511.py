@@ -43,7 +43,7 @@ val_transform = None
 model = None
 
 # OK:Plastic bottle
-# NG: Not plastic bottl
+# NG: Not plastic bottle
 result = None
 
 # d1:Campus, d2:City, d3:Road along river
@@ -53,7 +53,7 @@ difficulty_degree = 'd1'
 
 LATITUDE = 35.6311 # AAII, Ariake Campus, Tokyo
 LONGITUDE = 139.7877
-#LATITUDE = 7.8947 # PSU, Facaulty of Technology and Environment
+#LATITUDE = 7.8947 # PSU, Faculty of Technology and Environment
 #LONGITUDE = 98.3529
 
 # Google Drive URL
