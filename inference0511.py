@@ -40,7 +40,7 @@ val_transform = None
 model = None
 
 # OK:Plastic bottle
-# NG: Not plastic bottl
+# NG: Not plastic bottle
 result = None
 
 # d1:Campus, d2:City, d3:Road along river
