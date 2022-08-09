@@ -10,9 +10,6 @@
 - Type2
   - upto5DWM.py
   - In addition to Type1, upload files to the specified GoogleDrive
-    - Example
-      - https://drive.google.com/drive/u/0/folders/14RUXCD8xSkvUFMYu37YQopmda7vZSTbx
-
 ---
 <span style="color: red; ">Temporarily share **client_secrets.json** and **credentials.json.**(It contains the API Key of my dummy account.) Once you have verified that upto5DWM0511.py is working, you can create the two files yourself on the Google Cloud Console.</span> 
 
