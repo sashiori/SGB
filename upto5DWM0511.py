@@ -57,7 +57,7 @@ LONGITUDE = 139.7877
 #LONGITUDE = 98.3529
 
 # Google Drive URL
-FOLDER_ID = '14RUXCD8xSkvUFMYu37YQopmda7vZSTbx' # for 5D World Map
+FOLDER_ID = '##########################################' # for 5D World Map
 
 def main():
     preparation_build_inference_model()
